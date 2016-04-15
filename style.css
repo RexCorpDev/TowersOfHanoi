@@ -1,0 +1,83 @@
+body {
+     background-color: #000000;
+     color: #2bff00;
+     text-align: center;
+     font-size: 40px;
+}
+
+h1 {
+     font-size: 60px;
+}
+
+.towers {
+     margin: auto;
+     margin-top: 50px;
+     height: 501px;
+     width: 42%;
+     border: 0px solid #2bff00;
+     padding: 30px;
+}
+
+.tower {
+     display: inline-block;
+     width: 300px;
+     height: 300px;
+     border: 1px solid #2bff00;
+}
+
+.towers div.selected {
+     background-color: #171717;
+}
+
+div.piece.piece1 {
+     position: relative;
+     margin-top: 180px;
+     margin-left: 120px;
+     margin-bottom: 5px;
+     width: 60px;
+     font-size: 10px;
+     border: 1px solid #f2ff00;
+     padding: 1px;
+     height: 30px;
+     background-color: #ff1900;
+}
+
+div.piece.piece2 {
+     margin-left: 90px;
+     margin-bottom: 5px;
+     width: 120px;
+     font-size: 10px;
+     border: 1px solid #f2ff00;
+     padding: 1px;
+     height: 30px;
+     background-color: #ff1900;
+}
+
+div.piece.piece3 {
+     margin-left: 60px;
+     margin-bottom: 5px;
+     width: 180px;
+     font-size: 10px;
+     border: 1px solid #f2ff00;
+     padding: 1px;
+     height: 30px;
+     background-color: #ff1900;
+}
+
+
+/*
+1 Pieces, Top = "margin-top: 240px"
+2 Pieces, Top = "margin-top: 210px"
+3 Pieces, Top = "margin-top: 180px"
+
+Piece 1, Left = "margin-left: 120px"
+Piece 2, Left = "margin-left: 90px"
+PIece 3, Left = "margin-left: 60px"
+
+1 Piece, Piece 1 =
+1 Piece, Piece 2 =
+1 Piece, Piece 3 =
+
+2 Pieces, Piece 1, 2,
+
+*/
